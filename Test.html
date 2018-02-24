@@ -8,23 +8,30 @@
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-<div class = "shape" onclick = "changecolor();"> </div>
-<p class = 'test'> Hello </p>
-<script>
-    var colorRed = 0;
-    function changecolor() {
-        if (colorRed == 0){
-            $('.shape').css('background-color', 'red');
-            $('.shape').css('left', '0%');
-            colorRed = 1;
+<div class = 'container' style='height: 100em;'>
+<div class = 'navbar'>
+<ul>
+    <li> <a href = '#'> Home </a> </li>
+    <li> <a href = '#'> About Us </a> </li>
+    <li> <a href = '#'> Contact Info </a> </li>
+    <li> <a href = '#'> Legal Notices </a> </li>
 
-        }
-        else{$('.shape').css('background-color', 'aquamarine');
-            $('.shape').css('left', '50%');
-            colorRed = 0;}
-    }
+</ul>
+</div>
+
+<div class = 'inputbar'>
+<p style = 'top: 40%; left: 35%; position: absolute;'> Go Down </p>
+
+</div>
+
+
+</div>
+</script>
+
+
 
 </script>
 </body>
