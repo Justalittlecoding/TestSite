@@ -1,4 +1,4 @@
-#shape{
+.shape{
     height: 15em;
     width: 15em;
     border-radius: 50%;
@@ -9,7 +9,7 @@
     top: 50%;
 
 }
-#shape:hover{
+.shape:hover{
     height: 18em;
     width: 18em;
 }
